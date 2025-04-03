@@ -16,7 +16,7 @@ class App(ctk.CTk):
         Inicializa la ventana principal, configura la apariencia y crea los componentes UI.
         """
         super().__init__()
-        self.title("Background Eraser Tool")
+        self.title("Background Eraser")
         self.geometry("600x200")
         self.resizable(False, False)
         ctk.set_appearance_mode("dark")
